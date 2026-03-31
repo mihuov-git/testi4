@@ -1,9 +1,53 @@
 {
-  "updated_at": "",
-  "updated_at_fi": "Ei vielä haettu",
-  "today_name": "maanantai",
+  "updated_at": "2026-03-31T22:30:24.804399+03:00",
+  "updated_at_fi": "31.03.2026 22:30",
+  "today_name": "tiistai",
   "debug": [
-    "GitHub Action ei ole vielä ajettu."
+    "Grill it! Marina: ok, 6 riviä, hinta 14,80 €",
+    "Viides Näyttämö: ok, 2 riviä, hinta 13,80 €",
+    "Aitiopaikka: ok, 3 riviä, hinta 13,50 €"
   ],
-  "restaurants": []
+  "restaurants": [
+    {
+      "key": "grillit",
+      "name": "Grill it! Marina",
+      "subtitle": "Raflaamo",
+      "url": "https://www.raflaamo.fi/fi/ravintola/turku/grill-it-marina-turku/menu/lounas",
+      "price": "14,80 €",
+      "items": [
+        "Lunch: 11:00-14:00.",
+        "Rapea kalaleike, tilli-kermaviilikastiketta ja sitruunalohkoja",
+        "Halloumi-punajuuripihvit ja paprikahilloa",
+        "LL",
+        "Lisäkkeenä tarjoilemme: Perunamuusia, kasvisriisiä ja lämpimiä vihanneksia",
+        "Paistettua lohta, timjamiperunoita ja tilli-hollandeisekastiketta"
+      ],
+      "status": "ok"
+    },
+    {
+      "key": "viides",
+      "name": "Viides Näyttämö",
+      "subtitle": "Kulttuuriranta",
+      "url": "https://www.viidesnayttamo.fi/?page_id=73",
+      "price": "13,80 €",
+      "items": [
+        "Lihapullat tomaattikastikkeessa ja paahdettua timjamiperunaa L,G",
+        "Ratatouillekasviksia ja valkoisia papuja Veg,G"
+      ],
+      "status": "ok"
+    },
+    {
+      "key": "aitiopaikka",
+      "name": "Aitiopaikka",
+      "subtitle": "Fresco Ravintolat",
+      "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
+      "price": "13,50 €",
+      "items": [
+        "Georgialainen lihapata M,G, mausteinen riisi M,G",
+        "Uuniperunaa M,G, feta-kasvis- ja savulohitäyte L,G",
+        "Mustajuurikeittoa L,G"
+      ],
+      "status": "ok"
+    }
+  ]
 }
