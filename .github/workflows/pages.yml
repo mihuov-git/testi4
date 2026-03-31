@@ -1,0 +1,73 @@
+name: Build and deploy lunch page
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 4 * * 1-5"
+    - cron: "5 8 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml playwright
+          python -m playwright install chromium
+
+      - name: Verify repo structure
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -type f
+          test -f scripts/fetch_lunches.py
+          test -f data/lunches.json
+          test -f index.html
+
+      - name: Fetch lunches
+        run: python scripts/fetch_lunches.py
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lunches.json
+          git diff --cached --quiet || git commit -m "Update lunches"
+          git push
+
+  deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
