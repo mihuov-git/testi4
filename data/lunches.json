@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-31T22:30:24.804399+03:00",
-  "updated_at_fi": "31.03.2026 22:30",
-  "today_name": "tiistai",
+  "updated_at": "2026-04-01T11:46:20.201819+03:00",
+  "updated_at_fi": "01.04.2026 11:46",
+  "today_name": "keskiviikko",
   "debug": [
     "Grill it! Marina: ok, 6 riviä, hinta 14,80 €",
     "Viides Näyttämö: ok, 2 riviä, hinta 13,80 €",
@@ -16,10 +16,10 @@
       "price": "14,80 €",
       "items": [
         "Lunch: 11:00-14:00.",
-        "Rapea kalaleike, tilli-kermaviilikastiketta ja sitruunalohkoja",
-        "Halloumi-punajuuripihvit ja paprikahilloa",
-        "LL",
-        "Lisäkkeenä tarjoilemme: Perunamuusia, kasvisriisiä ja lämpimiä vihanneksia",
+        "Tandoorikanaa ja minttu-jogurttikastiketta",
+        "Metsäsienikääryleet ja puolukkahilloa",
+        "Lisäkkeenä tarjoilemme: Paahdettuja perunoita, keitettyä riisiä ja uunivihanneksia",
+        "Jälkiruokana: Talon hedelmärahkaa",
         "Paistettua lohta, timjamiperunoita ja tilli-hollandeisekastiketta"
       ],
       "status": "ok"
@@ -31,8 +31,8 @@
       "url": "https://www.viidesnayttamo.fi/?page_id=73",
       "price": "13,80 €",
       "items": [
-        "Lihapullat tomaattikastikkeessa ja paahdettua timjamiperunaa L,G",
-        "Ratatouillekasviksia ja valkoisia papuja Veg,G"
+        "Savulohta, kermaviilikastiketta ja tilliperunaa L,G",
+        "Harissafalafelit ja yrttijogurttikastiketta L,G"
       ],
       "status": "ok"
     },
@@ -43,9 +43,9 @@
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "price": "13,50 €",
       "items": [
-        "Georgialainen lihapata M,G, mausteinen riisi M,G",
-        "Uuniperunaa M,G, feta-kasvis- ja savulohitäyte L,G",
-        "Mustajuurikeittoa L,G"
+        "Valkosipuli broileria kasvispedillä L,G",
+        "Makkarastroganof L,G, perunamuhennos L,G",
+        "Parsakaalikeittoa L,G"
       ],
       "status": "ok"
     }
