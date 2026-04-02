@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T14:32:29.055256+03:00",
-  "updated_at_fi": "01.04.2026 14:32",
-  "today_name": "keskiviikko",
+  "updated_at": "2026-04-02T10:56:07.584060+03:00",
+  "updated_at_fi": "02.04.2026 10:56",
+  "today_name": "torstai",
   "debug": [
     "Grill it! Marina: ok, 6 riviä, hinta 14,80 €",
     "Viides Näyttämö: ok, 2 riviä, hinta 13,80 €",
@@ -16,11 +16,11 @@
       "price": "14,80 €",
       "items": [
         "Lunch: 11:00-14:00.",
-        "Tandoorikanaa ja minttu-jogurttikastiketta",
-        "Metsäsienikääryleet ja puolukkahilloa",
-        "Lisäkkeenä tarjoilemme: Paahdettuja perunoita, keitettyä riisiä ja uunivihanneksia",
-        "Jälkiruokana: Talon hedelmärahkaa",
-        "Paistettua lohta, timjamiperunoita ja tilli-hollandeisekastiketta"
+        "Perinteiset lihapullat ja kermaista pippurikastiketta, etikkakurkkua ja puolukkahilloa",
+        "Munakoiso-linssipaistosta",
+        "Lisäkkeenä tarjoilemme: Perunamuusia, keitettyjä perunoita ja lämpimiä kasviksia",
+        "Paistettua lohta, timjamiperunoita ja tilli-hollandeisekastiketta",
+        "Jälkiruokana: Pannukakkua, marjahilloa ja kermavaahtoa"
       ],
       "status": "ok"
     },
@@ -31,8 +31,8 @@
       "url": "https://www.viidesnayttamo.fi/?page_id=73",
       "price": "13,80 €",
       "items": [
-        "Savulohta, kermaviilikastiketta ja tilliperunaa L,G",
-        "Harissafalafelit ja yrttijogurttikastiketta L,G"
+        "Karitsan entrécôte, punaviinikastiketta ja kermaperunoita L,G",
+        "Hasselbackan munakoisot L,G"
       ],
       "status": "ok"
     },
@@ -43,9 +43,9 @@
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "price": "13,50 €",
       "items": [
-        "Valkosipuli broileria kasvispedillä L,G",
-        "Makkarastroganof L,G, perunamuhennos L,G",
-        "Parsakaalikeittoa L,G"
+        "Karitsanpaistia punaviinikastikkeessa M,G, paahdetut perunat M,G",
+        "Kievin kanaa L, ananas-majoneesi M,G",
+        "Linssikeittoa V,M,G"
       ],
       "status": "ok"
     }
