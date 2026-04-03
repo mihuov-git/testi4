@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-02T14:13:24.625935+03:00",
-  "updated_at_fi": "02.04.2026 14:13",
-  "today_name": "torstai",
+  "updated_at": "2026-04-03T10:50:26.674534+03:00",
+  "updated_at_fi": "03.04.2026 10:50",
+  "today_name": "perjantai",
   "debug": [
-    "Grill it! Marina: ok, 6 riviä, hinta 14,80 €",
-    "Viides Näyttämö: ok, 2 riviä, hinta 13,80 €",
-    "Aitiopaikka: ok, 3 riviä, hinta 13,50 €"
+    "Grill it! Marina: error, 0 riviä, hinta 14,80 €",
+    "Viides Näyttämö: ok, 1 riviä, hinta 13,80 €",
+    "Aitiopaikka: ok, 1 riviä, hinta 13,50 €"
   ],
   "restaurants": [
     {
@@ -14,15 +14,8 @@
       "subtitle": "Raflaamo",
       "url": "https://www.raflaamo.fi/fi/ravintola/turku/grill-it-marina-turku/menu/lounas",
       "price": "14,80 €",
-      "items": [
-        "Lunch: 11:00-14:00.",
-        "Perinteiset lihapullat ja kermaista pippurikastiketta, etikkakurkkua ja puolukkahilloa",
-        "Munakoiso-linssipaistosta",
-        "Lisäkkeenä tarjoilemme: Perunamuusia, keitettyjä perunoita ja lämpimiä kasviksia",
-        "Paistettua lohta, timjamiperunoita ja tilli-hollandeisekastiketta",
-        "Jälkiruokana: Pannukakkua, marjahilloa ja kermavaahtoa"
-      ],
-      "status": "ok"
+      "items": [],
+      "status": "error"
     },
     {
       "key": "viides",
@@ -31,8 +24,7 @@
       "url": "https://www.viidesnayttamo.fi/?page_id=73",
       "price": "13,80 €",
       "items": [
-        "Karitsan entrécôte, punaviinikastiketta ja kermaperunoita L,G",
-        "Hasselbackan munakoisot L,G"
+        "Hyvää pääsiäistä!"
       ],
       "status": "ok"
     },
@@ -43,9 +35,7 @@
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "price": "13,50 €",
       "items": [
-        "Karitsanpaistia punaviinikastikkeessa M,G, paahdetut perunat M,G",
-        "Kievin kanaa L, ananas-majoneesi M,G",
-        "Linssikeittoa V,M,G"
+        "Mukavaa pääsiäistä!"
       ],
       "status": "ok"
     }
